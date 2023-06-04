@@ -1,0 +1,69 @@
+.delete-contact {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .delete-contact h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .delete-contact .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .delete-contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .delete-contact input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .delete-contact .form-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .delete-contact button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-contact button:hover {
+    background-color: #45a049;
+  }
+  .delete-contact input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .delete-contact .alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: #fff;
+  }
+  
+  .delete-contact .alert.error {
+    background-color: #f44336;
+  }
+  
+  .delete-contact .alert.success {
+    background-color: #4caf50;
+  }
+  

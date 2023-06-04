@@ -1,0 +1,52 @@
+.add-contact {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-contact h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-contact label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  text-align: center;
+}
+
+.add-contact input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-contact button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.add-contact .success-message {
+  margin-top: 10px;
+  text-align: center;
+  color: #4caf50;
+  font-weight: bold;
+}
